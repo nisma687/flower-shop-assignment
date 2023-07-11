@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 97px;
-   
+  
    
 }
 
@@ -95,6 +95,8 @@ line-height: normal;
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
+    
+    
 
 }
 .sectioncontainer
@@ -116,4 +118,149 @@ font-size: 24px;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
+}
+
+    /* hot deal part */
+
+    .deal
+    {
+        padding:190px 0px 300px 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 97px;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+    }
+    /* .deal-image
+    {
+        width: 500px;
+    } */
+
+    .hotdeal
+    {
+        color: #272727;
+
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 0px;
+    }
+
+   .container .section-description
+    {
+        margin-top: 23px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container .button-primary
+    {
+        margin-top: 12px;
+    }
+
+    /* .container .banner-image
+    {
+        padding-left: 400px;
+        padding-top: 100px;
+    } */
+
+/* insta*/
+.insta-description
+{
+    margin-bottom: 0px;
+}
+
+
+.insta-tittle
+{
+    color: #272727;
+text-align: center;
+margin-bottom: 0px;
+font-size: 40px;
+
+
+font-weight: 800;
+line-height: normal;
+}
+.insta-container
+{
+    margin-top: 48px;
+    display: flex;
+   
+    gap: 40px;
+
+}
+.insta
+{
+    padding: 100px 100px;
+}
+.insta-image
+{
+    width: 500px;
+    height: 500px;
+}
+
+/* latest deal part */
+.latest-deal
+{
+    background-image: url('Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 500px;
+}
+/* .latest-deal
+{
+    padding:200px 500px;
+} */
+
+.latestdeal
+{
+    margin-bottom: 0px;
+
+}
+.latest-des
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.latest-deal .email
+{
+    border-radius: 8px;
+background: #FFF;
+border: 0;
+padding: 10px 40px;
+width: 400px;
+height: 40px;
+
+margin-top: 30px;
+gap: 10px;
+
+}
+
+/* footer part */
+.footercontainer
+{
+    padding: 100px 300px;
+    margin-bottom: 0px;
+}
+.footer .section-description
+{
+    margin-top: 24px;
+    color:#FFFFFF;
+}
+.footer{
+    background: #111010;
+    
+    color:#FFFFFF;
+   
+}
+.flower{
+    color: #E55473;
+}
+.shop
+{
+    color:#FFFFFF;
 }
