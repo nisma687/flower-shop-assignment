@@ -42,7 +42,7 @@ body{
     font-family: 'Lato', sans-serif;
 
 }
-.section-description{
+.tittle-description{
     color: rgba(39, 39, 39, 0.60);
 font-size: 20px;
 font-weight: 400;
@@ -66,12 +66,54 @@ font-weight: 700;
 text-align: center;
 margin-top: 32px;
 }
-.banner-image{
+/* .banner-image{
     margin:50px ;
+    padding-bottom: 0px;
     
-}
+} */
 
 /* main part style */
 
+.section-tittle
+{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+
+.section-description
+{
 
 
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+
+}
+.sectioncontainer
+{
+    padding: 0px 240px 0px 240px;
+
+}
+
+.flowersectionchoose-conatiner
+{
+    display:flex;
+    justify-content: space-between;
+}
+.chooseflower
+{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
