@@ -1,3 +1,46 @@
+/* Nav related styles */
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+nav >ul
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.color{
+    color:#E55473;
+}
+
+nav li 
+{
+    list-style: none;
+    margin-right: 51px;
+    
+}
+nav a
+{
+    text-decoration: none;
+    color:  #474747;
+}
+.nav-tittle {
+    color: #181818;
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+}
+
+
 .head
 {
     background-color: rgba(229, 84, 115, 0.10);
